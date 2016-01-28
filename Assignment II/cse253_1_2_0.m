@@ -1,0 +1,9 @@
+%% Loading Images
+images = loadMNISTImages('train-images.idx3-ubyte');
+labels = loadMNISTLabels('train-labels.idx1-ubyte');
+train_images = [ones(1,20000);images(:,1:20000)];
+train_labels = labels(1:20000,:);
+images = loadMNISTImages('t10k-images.idx3-ubyte');
+labels = loadMNISTLabels('t10k-labels.idx1-ubyte');
+test_images = [ones(1,2000);images(:,1:2000)];
+test_labels = labels(1:2000,:);

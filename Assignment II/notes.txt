@@ -1,0 +1,63 @@
+NHU = 20
+2d3
+actfun = 'tanh';
+[mvl
+loc
+vldtn_error(300)
+test_error(300)
+test_error(loc)
+max(abs(WIH(:)))
+max(abs(WHO(:)))]
+
+ans =
+
+    0.0536  291.0000    0.0571    0.0633    0.0587    0.5298    1.5099
+
+2d2
+iter_no = 301
+no of images = 1000
+eps = 10^ - 5
+WHOErr =
+
+   1.4412e-10
+
+WIHErr =
+
+   4.6767e-10
+
+2e
+ans =
+
+    0.0553  298.0000    0.0554    0.0619    0.0619    0.4634    1.5063
+
+2f
+[mvl
+loc
+vldtn_error(300)
+test_error(300)
+test_error(loc)
+max(abs(WIH(:)))
+max(abs(WHO(:)))]
+
+ans =
+
+    0.0636
+  296.0000
+    0.0639
+    0.0710
+    0.0711
+    1.0932
+    2.1332
+
+2g
+sigmoid
+ans =
+
+    0.0630  295.0000    0.0634    0.0669    0.0673    0.4068    2.3820
+
+ReLU
+
+ans =
+
+    0.0515  991.0000    0.0714    0.0754    0.0555    0.3096    0.8032
+

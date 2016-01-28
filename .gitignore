@@ -45,3 +45,11 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+*.idx3-ubyte
+*.idx1-ubyte
+*.zip
+*.gz
+*.png
+loadMNISTImages.m
+loadMNISTLabels.m

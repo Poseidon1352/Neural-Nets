@@ -1,0 +1,1 @@
+        %err_rate = sum(abs((y > 0.6) - t))/n_train;
